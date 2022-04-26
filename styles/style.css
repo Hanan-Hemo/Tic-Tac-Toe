@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+
+body {
+	background-image: url("../Images/background2.jpg");
+	margin: 0 auto;
+	font-family: "Grape Nuts";
+	font-weight: bold;
+	color: white;
+
+
+}
+
+input::-moz-focus-inner { 
+	border: 0; 
+	}
+
+a {
+   outline: 0;
+}
+h1{
+	margin-top: 0;
+}
+
+.nicknames{
+	padding-top: 1.5em;
+
+}
+.nicknames input{
+	border-radius: 50px;
+}
+.nicknames input {
+	border-color: 5px black !important;
+	
+}
+
+.submit-button {
+
+	margin-top: 2em;
+	justify-content: center;
+    text-align: center;
+
+        width: 140px;
+        height: 45px;
+        font-family: 'Grape Nuts', sans-serif;
+        font-size: 11px;
+        letter-spacing: 2.5px;
+        font-weight: bold;
+        font-size: 1em;
+        color: white;
+        background-color: #63F17A;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ease 0s;
+        cursor: pointer;
+        outline: none;
+        }
+      
+      input:hover {
+        background-color: white;
+        box-shadow: 0px 15px 20px black;
+        color: black;
+        transform: translateY(-7px);
+      }
+
+
+      select{
+          width: 10em;
+          text-align: center;
+          border-radius: 50px;
+          border-color: 3px black;
+          cursor: pointer;
+}
+.game-area {
+	margin:0 auto;
+	text-align: center;
+	padding-top: 20px; 
+}
+
+.game-options {
+	border-bottom: 1px dashed #CFCFCF;
+	padding-bottom: 20px;
+}
+.game-options select, .game-options input  {
+	border: 1px solid #333;
+	padding: 10px;
+	margin-right: 10px;
+	outline: none;
+}
+#colorX , #colorO{
+	width: 50px !important ;
+	height: 50px !important;
+}
+.game-board {
+	margin-top: 50px;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+.grid-box, .x-player, .o-player {
+	font-size: 35px;
+	font-family: "Grape Nuts";
+	font-weight: bold;
+	padding: 15px 25px;
+	width: 80px;
+	height: 80px;
+	margin:0px;
+	background-color: #FCFCFC;
+	outline: none;
+}
+
+
+
+.score-card {
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 1.3em;
+}
+.score-card span {
+	font-weight: bold;
+	width: 10px !important;
+	height: 10px !important;
+}
+#countdown{
+	visibility: hidden;
+}
+
